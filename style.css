@@ -1,5 +1,8 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&display=swap");
+
 body {
   margin: auto 0;
+  font-family: "montserrat", sans-serif;
 }
 
 .zone {
@@ -28,11 +31,13 @@ body {
   display: flex;
   list-style: none;
   font-size: 0.7em;
+
   margin: 0;
 }
 
 .push {
   margin-left: auto;
+  
 }
 
 li {
@@ -83,6 +88,8 @@ footer {
  *  Green Background
  **********************************************************************/
 .green {
+  padding-top: 1%;
+  padding-right: 1%;
   background: #56b870; /* Old browsers */
   background: -moz-linear-gradient(top, #56b870 0%, #a5c956 100%); /* FF3.6+ */
   background: -webkit-gradient(
@@ -110,54 +117,52 @@ footer {
  *  Red Background
  **********************************************************************/
 .red {
-  background: #c655be; /* Old browsers */
-  background: -moz-linear-gradient(top, #c655be 0%, #cf0404 100%); /* FF3.6+ */
+  background: #555555; /* Old browsers */
+  background: -moz-linear-gradient(top, #555555 0%, #000 100%); /* FF3.6+ */
   background: -webkit-gradient(
     linear,
     left top,
     left bottom,
-    color-stop(0%, #c655be),
-    color-stop(100%, #cf0404)
+    color-stop(0%, #555555),
+    color-stop(100%, #000000)
   ); /* Chrome,Safari4+ */
   background: -webkit-linear-gradient(
     top,
-    #c655be 0%,
-    #cf0404 100%
+    #555555 0%,
+    #000 100%
   ); /* Chrome10+,Safari5.1+ */
-  background: -o-linear-gradient(
-    top,
-    #c655be 0%,
-    #cf0404 100%
-  ); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #c655be 0%, #cf0404 100%); /* IE10+ */
-  background: linear-gradient(top, #c655be 0%, #cf0404 100%); /* W3C */
+  background: -o-linear-gradient(top, #555555 0%, #000 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top, #555555 0%, #000 100%); /* IE10+ */
+  background: linear-gradient(top, #555555 0%, #000 100%); /* W3C */
 }
 
 /***********************************************************************
  *  Yellow Background
  **********************************************************************/
 .yellow {
-  background: #f3aaaa; /* Old browsers */
-  background: -moz-linear-gradient(top, #f3aaaa 0%, #febf04 100%); /* FF3.6+ */
+  padding: 2%;
+  font-size: 1rem;
+  background: #a5c956; /* Old browsers */
+  background: -moz-linear-gradient(top, #a5c956 0%, #56b870 100%); /* FF3.6+ */
   background: -webkit-gradient(
     linear,
     left top,
     left bottom,
-    color-stop(0%, #f3aaaa),
-    color-stop(100%, #febf04)
+    56b870 color-stop(0%, #a5c956),
+    color-stop(100%, #56b870)
   ); /* Chrome,Safari4+ */
   background: -webkit-linear-gradient(
     top,
-    #f3aaaa 0%,
-    #febf04 100%
+    #a5c956 0%,
+    #56b870 100%
   ); /* Chrome10+,Safari5.1+ */
   background: -o-linear-gradient(
     top,
-    #f3aaaa 0%,
-    #febf04 100%
+    #a5c956 0%,
+    #56b870 100%
   ); /* Opera 11.10+ */
-  background: -ms-linear-gradient(top, #f3aaaa 0%, #febf04 100%); /* IE10+ */
-  background: linear-gradient(top, #f3aaaa 0%, #febf04 100%); /* W3C */
+  background: -ms-linear-gradient(top, #a5c956 0%, #56b870 100%); /* IE10+ */
+  background: linear-gradient(top, #a5c956 0%, #56b870 100%); /* W3C */
 }
 
 /***********************************************************************
@@ -203,4 +208,12 @@ footer {
     #60abf8 44%,
     #4096ee 100%
   ); /* W3C */
+}
+
+#home {
+  max-width: 3rem;
+  width: 2rem;
+  padding-top: 0%;
+  margin-left: 5%;
+  margin-top: 0%;
 }
