@@ -7,21 +7,24 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "montserrat", sans-serif;
+  font-family: "raleway", sans-serif;
 }
 
 body,
 html {
   height: 100%;
   line-height: 1.8;
+  background-color: black;
+  color: white;
 }
 
 /* Full height image header */
 .bgimg-1 {
   background-position: center;
   background-size: cover;
-  background-image: url("/img/c1.jpg");
+  background-image: url("/img/photoportfolio.jpg");
   min-height: 100%;
+  background-color: black;
 }
 
 .w3-bar .w3-button {
@@ -55,7 +58,7 @@ html {
 }
 
 #js-p {
-  padding-left: 50%;
+  padding-left: 55%;
   font-size: 1.2rem;
   text-indent: 1rem;
 }
@@ -66,12 +69,17 @@ html {
 a {
   text-decoration: none;
 }
-#logo {
-  width: 11%;
-  margin-left: 5%;
-  margin-top: 1%;
+
+#myNavbar {
+  background-color: black !important;
+  color: white !important;
 }
 
-#aboutmetitle {
-  font-size: 4.5rem;
+#covertxt {
+  background-color: black;
+}
+
+.pnarrow {
+  width: 50% !important;
+  text-align: center;
 }
