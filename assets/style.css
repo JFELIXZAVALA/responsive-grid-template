@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;500&family=Roboto:wght@300;400&display=swap");
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "raleway", sans-serif;
+}
+
+body,
+html {
+  height: 100%;
+  line-height: 1.8;
+  background-color: black;
+  color: white;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("/img/photoportfolio.jpg");
+  min-height: 100%;
+  background-color: black;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+}
+.js {
+  width: 5rem;
+}
+
+#jscal {
+  padding-left: 75%;
+  width: 50px;
+}
+
+#calimg {
+  width: 35%;
+  margin-left: 10%;
+  margin-top: 2%;
+}
+
+#jscaltitle {
+  font-size: 2rem;
+  text-align: center;
+  padding-left: 55%;
+  padding-top: 5%;
+}
+
+.fa-calculator {
+  width: 20px;
+  border-radius: 50px;
+}
+
+#js-p {
+  padding-left: 55%;
+  font-size: 1.2rem;
+  text-indent: 1rem;
+}
+
+.center {
+  text-align: center;
+}
+a {
+  text-decoration: none;
+}
+
+#myNavbar {
+  background-color: black !important;
+  color: white !important;
+}
+
+#covertxt {
+  background-color: black;
+}
+
+.pnarrow {
+  width: 50% !important;
+  text-align: center;
+}
