@@ -22,7 +22,7 @@ html {
 .bgimg-1 {
   background-position: center;
   background-size: cover;
-  background-image: url("/img/photoportfolio.jpg");
+  background-image: url("https://github.com/JFELIXZAVALA/responsive-grid-template/blob/main/img/photoportfolio.jpgg");
   min-height: 100%;
   background-color: black;
 }
