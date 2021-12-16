@@ -7,7 +7,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "montserrat", sans-serif;
+  font-family: "raleway", sans-serif;
 }
 
 body,
@@ -22,7 +22,7 @@ html {
 .bgimg-1 {
   background-position: center;
   background-size: cover;
-  background-image: url("https://jfelixzavala.github.io/responsive-grid-template/img/main.jpg");
+  background-image: url("/img/manwithcamera-min.jpg");
   min-height: 100%;
   background-color: black;
 }
