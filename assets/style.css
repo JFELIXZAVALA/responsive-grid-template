@@ -22,7 +22,7 @@ html {
 .bgimg-1 {
   background-position: center;
   background-size: cover;
-  background-image: url("img/manwithcamera-min.jpg");
+  background-image: url("https://raw.githubusercontent.com/JFELIXZAVALA/responsive-grid-template/main/img/manwithcamera-min.jpg");
   min-height: 100%;
   background-color: black;
 }
