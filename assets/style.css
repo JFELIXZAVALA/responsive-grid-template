@@ -21,7 +21,7 @@ html {
   background-position: center;
   background-size: cover;
   background-image: url("https://raw.githubusercontent.com/JFELIXZAVALA/responsive-grid-template/main/img/manwithcamera-min.jpg");
-  min-height: 80%;
+  min-height: 95%;
   background-color: black;
 }
 
@@ -64,6 +64,8 @@ a {
 }
 .containerx {
   padding: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
 
   background-color: rgba(219, 219, 219, 0.1);
 }
@@ -164,13 +166,18 @@ input[type="submit"] {
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  margin-top: 10%;
-  margin-bottom: 10%;
+  margin-top: 1%;
+  margin-bottom: 2%;
   background-color: rgba(47, 47, 47, 0.2);
-
   border-radius: 25px;
   text-align: center;
-  width: 55%;
+  width: 45%;
   padding: 1%;
   font-size: 5rem;
+}
+
+.greeting {
+  font-size: 3rem;
+  text-align: center;
+  margin: 0;
 }
